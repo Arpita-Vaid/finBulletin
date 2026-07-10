@@ -121,7 +121,11 @@ function Login() {
         </div>
 
         <div className="login-footer">
-          <p className="demo-text">Demo: Use any email@example.com (no verification needed)</p>
+          <p className="demo-label">Demo Credentials</p>
+          <div className="demo-credentials">
+            <span><strong>Email:</strong> user123@gmail.com</span>
+            <span><strong>Password:</strong> user123</span>
+          </div>
         </div>
       </div>
     </div>

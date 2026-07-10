@@ -170,16 +170,36 @@
 }
 
 .login-footer {
-  background-color: #f5f5f5;
+  background-color: #f0f0ff;
   padding: 16px 30px;
   text-align: center;
   border-top: 1px solid #e0e0e0;
 }
 
-.demo-text {
-  margin: 0;
-  font-size: 12px;
-  color: #999;
+.demo-label {
+  margin: 0 0 8px 0;
+  font-size: 11px;
+  font-weight: 600;
+  color: #667eea;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.demo-credentials {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: white;
+  border: 1px dashed #c5cdf7;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 13px;
+  color: #333;
+}
+
+.demo-credentials strong {
+  color: #555;
+  margin-right: 4px;
 }
 
 /* Responsive Design */
